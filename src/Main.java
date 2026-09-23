@@ -1,15 +1,45 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
-    public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+    public static void main(String[] args){
+        int[] testNumbers = {
+                15, 25, 35, 45, 55
+        };
+        Stack<Integer> stack = new Stack<>();
+        /*
+        ----------------------
+          Stack test section
+        ----------------------
+        */
+        System.out.println("Stack Demonstration\nAdding: ");
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
+        for (int testNumber : testNumbers) {//pushing testNumbers in stack
+            System.out.println(testNumber);
+            stack.push(testNumber);
+
         }
+        System.out.println("TopItem: "+stack.peek());
+        System.out.println("Removing: "+stack.pop());
+        System.out.println("Removing: "+stack.pop());
+        System.out.println("New Top: "+stack.peek());
+        System.out.println("Is stack empty?: "+stack.isEmpty());
+
+        /*
+        ----------------------
+          Queue test section
+        ----------------------
+        */
+        Queue<Integer> queue = new Queue<>();
+        System.out.println("Queue Demonstration\nEnqueue: ");
+        for (int testNumber : testNumbers) {//pushing testNumbers in stack
+            System.out.println(testNumber);
+            queue.enqueue(testNumber);
+        }
+        System.out.println("Front Item: "+queue.peek());
+        System.out.println("Removing: "+ queue.dequeue());
+        System.out.println("Removing: "+queue.dequeue());
+        System.out.println("New front: "+queue.peek());
+        System.out.println("Is queue empty?"+queue.isEmpty());
+
+
+
     }
 }
