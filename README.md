@@ -150,7 +150,35 @@ peek()
 #### array is the implementation of the given ADT
 ### Question 20 If you replace the array with a linked list but keep the same Stack operations, did the ADT change?
 #### ADT does not change, since the rules of the stack are maintained, implementation is the thing that changed but it does not play huge role since the rules of ADT are still present
+## My program output
+````
+Stack Demonstration
+Adding: 
+15
+25
+35
+45
+55
+TopItem: 55
+Removing: 55
+Removing: 45
+New Top: 35
+Is stack empty?: false
+Queue Demonstration
+Enqueue: 
+15
+25
+35
+45
+55
+Front Item: 15
+Removing: 15
+Removing: 25
+New front: 35
+Is queue empty?false
 
+Process finished with exit code 0
+````
 
 
 
