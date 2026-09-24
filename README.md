@@ -142,6 +142,17 @@ peek()
 | Remove operation | pop()      | dequeue()   |
 | View next item | peek()     | peek()      |
 | First item removed | last added | first added |
+## Part 18 — Connect the ADT to the Implementation
+### Question 18 If you implement a Stack using an array, which part is the ADT?
+#### Stack is the ADT while array is just a data structure.
+### Question 19 Which part is the implementation?
+#### array is the implementation of the given ADT
+### Question 20 If you replace the array with a linked list but keep the same Stack operations, did the ADT change?
+#### ADT does not change, since the rules of the stack are maintained, implementation is the thing that changed but it does not play huge role since the rules of ADT are still present
+
+
+
+
  
 
 
