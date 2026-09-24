@@ -135,6 +135,7 @@ peek()
 #### dequeue() should return 7 
 ### Question 17 What does final peek() return ?
 #### final peek() should return 12 
+## Stack vs Queue table comparison
 | Feature | Stack      | Queue       |
 |---|------------|-------------|
 | Rule | LIFO       | FIFO        |
