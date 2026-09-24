@@ -31,8 +31,8 @@
 
 - C
 
-- D
-**and D was added last, which item should pop() remove first?**
+- D  
+**and D was added last, which item should pop() remove first?**  
 #### D will be removed first since it will be on top of the stack
 ### Question 9 Give one real-world or software example where a Stack could be useful. 
 #### Stack may be useful for browser back history, when you open new pages the "stack" is being created, each new page goes on top of the stack
@@ -51,7 +51,7 @@
 
 - John
 
-- Sarah
+- Sarah  
 
 #### who should leave the Queue first? We should remove Alexa since she is the first in line.
 ### Question 13 Give one real-world or software example where a Queue could be useful.
@@ -67,10 +67,10 @@
 
 - B
 
-- C
-**the most recent action should be undone first.**
+- C  
+**the most recent action should be undone first.**  
 
-**Stack or Queue?**
+**Stack or Queue?**  
 #### For this scenario I would choose a stack because we need a history that builds on use input, the older the input it the farther from the scope of return it should be stored
 #### in Queue, we would return the first word/char we entered but this is not what we need, so the stack is most optimal way to implement this undo feature.
 ### Scenario 2 - Three students send documents to a printer.
@@ -85,9 +85,9 @@
 
 - GitHub
 
-- Amazon
+- Amazon  
 
-**You click the Back button.**
+**You click the Back button.**  
 ### Which page should appear first?
 #### so if we look at this as an order from top to bottom (so amazon was the last visited page) then go back button should bring me to the gitHub page
 ### What ADT does this resemble?
