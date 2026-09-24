@@ -35,7 +35,7 @@
 **and D was added last, which item should pop() remove first?**  
 #### D will be removed first since it will be on top of the stack
 ### Question 9 Give one real-world or software example where a Stack could be useful. 
-#### Stack may be useful for browser back history, when you open new pages the "stack" is being created, each new page goes on top of the stack and when you want to go to the previous page stack will pop the most recent page and bring one that was beneath it, in addition to that popped page should not vanish but has to be stored in another stack that will allow to go forward or return to the page from which you went back.
+#### Stack may be useful for browser back history, when you open new pages the "stack" is being created, each new page goes on top of the stack and when you want to go to the previous page stack will pop the most recent page and return it to you, in addition to that popped page should not vanish but has to be stored in another stack that will allow to go forward or return to the page from which you went back.
 ### Question 10 What does FIFO mean?
 #### FIFO stands for First in First out
 ### Question 11 Why was 15 removed before 55?
@@ -50,7 +50,8 @@
 
 - Sarah  
 
-#### who should leave the Queue first? We should remove Alexa since she is the first in line.
+#### who should leave the Queue first? 
+#### We should remove Alexa since she is the first in line.
 ### Question 13 Give one real-world or software example where a Queue could be useful.
 #### For queue anything that depends on the order in which it was received, for example if we have a customer service system lets say general Q&A will work 
 #### as a queue, most recent question will be handed to the available representative, however we also should have priority queue Q&A system where the reason for the email might make it receive answer faster but this is other ADT so not to bother now (but for the customer service I think we should have both implemented)
@@ -67,7 +68,7 @@
 **the most recent action should be undone first.**  
 
 **Stack or Queue?**  
-#### For this scenario I would choose a stack because we need a history that builds on use input, the older the input it the farther from the scope of return it should be stored in Queue, we would return the first word/char we entered but this is not what we need, so the stack is most optimal way to implement this undo feature.
+#### For this scenario I would choose a stack because we need a history that builds on user input, the older the input it the farther from the scope of return it should be stored. In Queue, we would return the first word/char we entered but this is not what we need, so the stack is most optimal way to implement this undo feature.
 ### Scenario 2 - Three students send documents to a printer.
 #### In this scenario we what the first sender of request to receive the document first so the queue is the best choice there
 **(also we can add a $5 feature that will put a student into priority queue, and he or she would receive their document first no matter what )**
@@ -87,6 +88,65 @@
 #### so if we look at this as an order from top to bottom (so amazon was the last visited page) then go back button should bring me to the gitHub page
 ### What ADT does this resemble?
 #### this resembles a stack ADT
+### Scenario 4 — Customer Service Customers are waiting to talk to an employee.
+#### The person who arrived first should normally be helped first.
+
+**Stack or Queue?**
+#### This is the most common representation of a queue, and also I like the usage of "normally" because there can be circumstances where someone will receive help even though he was not first in a queue
+### Scenario 5 — Plates You place five plates on top of one another. Which ADT does this represent?
+#### This is a stack of items, just another way to visualize the stack ADT.
+## Part 16 — Predict the Output
+```` Stack 
+Start with an empty Stack.
+
+push(7)
+
+push(12)
+
+push(18)
+
+pop()
+
+push(22)
+
+peek() 
+````
+### Question 14 What does pop() return?
+#### pop() will return 18
+### Question 15 What does the final peek() return?
+#### peek() will return 22
+````
+Queue
+Start with an empty Queue.
+
+enqueue(7)
+
+enqueue(12)
+
+enqueue(18)
+
+dequeue()
+
+enqueue(22)
+
+peek()
+````
+### Question 16 What does dequeue() return ?
+#### dequeue() should return 7 
+### Question 17 What does final peek() return ?
+#### final peek() should return 12 
+| Feature | Stack      | Queue       |
+|---|------------|-------------|
+| Rule | LIFO       | FIFO        |
+| Add operation | push()     | enqueue()   |
+| Remove operation | pop()      | dequeue()   |
+| View next item | peek()     | peek()      |
+| First item removed | last added | first added |
+ 
+
+
+
+
 
 
 
