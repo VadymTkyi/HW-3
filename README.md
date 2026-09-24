@@ -70,9 +70,9 @@
 **Stack or Queue?**  
 #### For this scenario I would choose a stack because we need a history that builds on user input, the older the input it the farther from the scope of return it should be stored. In Queue, we would return the first word/char we entered but this is not what we need, so the stack is most optimal way to implement this undo feature.
 ### Scenario 2 - Three students send documents to a printer.
-#### In this scenario we what the first sender of request to receive the document first so the queue is the best choice there
+#### In this scenario we want the first sender of request to receive the document first so the queue is the best choice there
 **(also we can add a $5 feature that will put a student into priority queue, and he or she would receive their document first no matter what )**
-### Browser Back Button
+### Scenario 3 Browser Back Button
 #### You visit:
 
 - Google
