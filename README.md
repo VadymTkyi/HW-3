@@ -3,8 +3,7 @@
 **Programming Language:** Java   
 **IDE:** IntelliJ IDEA  
 
-**Since my previous HW was a bit messy I decided to separate `Queue` and `Stack` into their own classes, also made them both generic instead of just accepting `int` values.**
-(Also in this read me I want to use all these headings, bold text etc. features to make it more readable)  
+**Since my previous HW was a bit messy I decided to separate `Queue` and `Stack` into their own classes, also made them both generic instead of just accepting `int` values.** 
 
 # Questions Section
 
